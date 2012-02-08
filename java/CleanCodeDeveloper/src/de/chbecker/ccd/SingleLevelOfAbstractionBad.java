@@ -1,3 +1,8 @@
+/**
+ * This is an exercise to refactoring regarding the orange level aspects
+ */
+package de.chbecker.ccd;
+
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -12,6 +17,7 @@ import de.chbecker.ccd.internals.SITProperties;
 import de.chbecker.ccd.internals.SupplierJob;
 import de.chbecker.ccd.internals.SupplierJobFactory;
 import de.chbecker.ccd.internals.Task;
+
 
 public class SingleLevelOfAbstractionBad {
 	private Map<Long, Task> queuedTasks = Collections.synchronizedMap(new HashMap<Long, Task>());
