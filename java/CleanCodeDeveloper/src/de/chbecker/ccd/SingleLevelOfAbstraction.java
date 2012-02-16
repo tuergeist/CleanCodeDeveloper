@@ -9,7 +9,7 @@ import java.util.Set;
 
 import de.chbecker.ccd.interfaces.ExternalClient;
 import de.chbecker.ccd.internals.PriorityInvalidException;
-import de.chbecker.ccd.internals.SITProperties;
+import de.chbecker.ccd.internals.MyProperties;
 import de.chbecker.ccd.internals.SupplierJob;
 import de.chbecker.ccd.internals.SupplierJobFactory;
 import de.chbecker.ccd.internals.Task;
@@ -68,8 +68,8 @@ public class SingleLevelOfAbstraction {
 	}
 
 	private int calculateExternalClientAmount(short amountRequest) {
-		int m = SITProperties.getIntValue("prio_m", 1);
-		int n = SITProperties.getIntValue("prio_n", 1);
+		int m = MyProperties.getIntValue("prio_m", 1);
+		int n = MyProperties.getIntValue("prio_n", 1);
 		short divisor = (short) ((m + n) / m);
 		return amountRequest / divisor;
 	}
