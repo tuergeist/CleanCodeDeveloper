@@ -1,14 +1,14 @@
 package de.chbecker.ccd.primetester;
 
-import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
+
+import junit.framework.TestCase;
 
 import org.junit.Ignore;
 import org.junit.Test;
 
 import de.chbecker.ccd.interfaces.PrimeTester;
-import junit.framework.TestCase;
 
 public class PrimeTesterImplTest extends TestCase {
 
