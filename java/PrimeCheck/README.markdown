@@ -16,7 +16,7 @@ Your Eclipse installation shall support
  - JUnit 4
  - EclEmma (http://update.eclemma.org)
 
-Maven, the buildsystem can be found at https://sitwiki.rsint.net/wiki/doku.php?id=test-driven-development_mit_java
+Maven, the buildsystem can be found at http://maven.apache.org/
 
 ## Libraries (distributed in the lib folder)
 
