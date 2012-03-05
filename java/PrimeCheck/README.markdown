@@ -17,6 +17,8 @@ Your Eclipse installation shall support
  - EclEmma (http://update.eclemma.org)
 
 Maven, the buildsystem can be found at http://maven.apache.org/
+An introduction into Maven including how to setup with an http-proxy
+can be found at http://maven.apache.org/guides/getting-started/index.html
 
 ## Libraries (distributed in the lib folder)
 
