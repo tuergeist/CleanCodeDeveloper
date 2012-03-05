@@ -12,15 +12,13 @@ The user can choose the strategy to use.
 We run this code inside eclipse and with maven.
 
 Your Eclipse installation shall support
- - Java Development
- - JUnit 4
  - EclEmma (http://update.eclemma.org)
 
 Maven, the buildsystem can be found at http://maven.apache.org/
 An introduction into Maven including how to setup with an http-proxy
 can be found at http://maven.apache.org/guides/getting-started/index.html
 
-## Libraries (distributed in the lib folder)
+## Libraries ued
 
 ### MessagePack
 
@@ -29,16 +27,6 @@ Our middleware.
  - http://msgpack.org/
  - http://wiki.msgpack.org/display/MSGPACK/QuickStart+for+Java
  - git://github.com/msgpack/msgpack-rpc.git is also needed (java version)
- 
-#### Javassist
-
- - LGPL / Apache License, Version 2.0
- - http://sourceforge.net/projects/jboss/files/Javassist/
-
-#### Netty
-
- - Apache License, Version 2.0
- - http://www.netty.io
  
 # Copyright
 
