@@ -12,7 +12,7 @@
     Konkrete Abhängigkeiten sollten deshalb so spät wie möglich entschieden werden. 
     Am besten zur Laufzeit.
     
-    Übergabe von LowLevel Klassen in HighLevel Klassn via Konstruktor (oder Dependency Injection)
+    Übergabe von LowLevel Klassen in HighLevel Klassen via Konstruktor (oder Dependency Injection)
      
 ### Liskov Substitution Principle
 	Wer mit Erben zu tun hat, möchte keine Überraschungen erleben, wenn er mit Erblassern vertraut ist.
