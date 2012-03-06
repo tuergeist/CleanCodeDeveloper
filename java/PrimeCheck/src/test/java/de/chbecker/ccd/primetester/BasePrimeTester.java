@@ -11,6 +11,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 import de.chbecker.ccd.interfaces.PrimeTester;
+import de.chbecker.ccd.interfaces.PrimeTesterType;
 
 public class BasePrimeTester {
 
@@ -19,7 +20,7 @@ public class BasePrimeTester {
 
 	@Before
 	public void setUp() {
-		primeTester = PrimeTesterFactory.getTester(PrimeTesters.SIMPLE);
+		primeTester = PrimeTesterFactory.getTester(PrimeTesterType.SIMPLE);
 	}
 
 	@Test
