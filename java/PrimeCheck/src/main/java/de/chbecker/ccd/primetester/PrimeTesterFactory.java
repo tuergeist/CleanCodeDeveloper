@@ -9,7 +9,7 @@ public final class PrimeTesterFactory {
 	}
 
 	public static PrimeTester getTester(PrimeTesters simple) {
-		return new PrimeTesterImpl();
+		return new SimplePrimeTester();
 	}
 	
 }

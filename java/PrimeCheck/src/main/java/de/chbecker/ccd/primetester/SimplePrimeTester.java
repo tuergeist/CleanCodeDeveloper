@@ -2,7 +2,7 @@ package de.chbecker.ccd.primetester;
 
 import de.chbecker.ccd.interfaces.PrimeTester;
 
-public class PrimeTesterImpl implements PrimeTester {
+public class SimplePrimeTester implements PrimeTester {
 	
 	public static final String description = "Trial Division"; 
 	private static final int SMALEST_PRIME = 2;
